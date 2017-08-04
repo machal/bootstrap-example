@@ -4,7 +4,8 @@
   "description": "Bootstrap Example",
   "author": "Martin Michalek",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6"
+    "bootstrap": "^4.0.0-alpha.6",
+    "grunt-contrib-copy": "^1.0.0"
   },
   "devDependencies": {
     "grunt": "^1.0.0",
