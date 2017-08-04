@@ -1,0 +1,13 @@
+// Menim barvy Bootstrapu
+
+$brand-primary: red;
+
+// Import Bootstrap
+
+@import "_bootstrap.scss";
+
+// Nase komponenty:
+
+@import "_el.scss";
+
+@import "_layout.scss";

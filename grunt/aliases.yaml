@@ -1,0 +1,7 @@
+default:
+  - 'css'
+  - 'watch'
+
+css:
+  - 'sass'
+  - 'postcss'
