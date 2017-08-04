@@ -1,11 +1,11 @@
-# Deutsche Börse HTML5/CSS3 example
+# Bootstrap example
 
 ## Install
 
-Clone this repository and install. You need https://nodejs.org/
+Clone this repository and install. You should have Node.js and NPM installed.
 
 ```bash
-git clone https://github.com/machal/polaroid-example.git
+git clone https://github.com/machal/bootstrap-example.git
 npm install
 ```
 
