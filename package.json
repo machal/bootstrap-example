@@ -4,13 +4,14 @@
   "description": "Bootstrap Example",
   "author": "Martin Michalek",
   "dependencies": {
-    "bootstrap": "^4.0.0-alpha.6",
+    "bootstrap": "^4.0.0-beta",
     "grunt-contrib-copy": "^1.0.0"
   },
   "devDependencies": {
     "grunt": "^1.0.0",
     "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-watch": "^1.0.0",
+    "grunt-contrib-copy": "^1.0.0",
     "grunt-sass": "^2.0.0",
     "grunt-postcss": "^0.8.0",
     "jit-grunt": "^0.10.0",

@@ -3,7 +3,7 @@
 
 module.exports = {
   sass: {
-    files: 'src/scss/*.scss',
+    files: 'src/scss/**/*.scss',
     tasks: ['css']
   }
-} 
+}

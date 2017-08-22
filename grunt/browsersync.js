@@ -10,7 +10,7 @@ module.exports = {
 	        watchTask: true,
 	        server: {
             	baseDir: "./"
-          	}
+          }
 	    }
 	}
-} 
+}
