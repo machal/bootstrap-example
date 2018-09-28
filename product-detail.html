@@ -6,6 +6,8 @@
 
   <title>Product Detail</title>
 
+  <link href="https://fonts.googleapis.com/css?family=Karla|Rubik" rel="stylesheet">
+
   <link rel="stylesheet" href="dist/css/style.css">
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -15,55 +17,54 @@
 </head>
 <body>
 
-  <div class="container-fluid">
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col-sm-6">
-          <h1>Product name: Lorem ipsum bla lorem ipsum</h1>
-          <h2>Price: 499 $</h2>
-          <p>
-            <strong>Description:</strong> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quidem, ducimus ullam illo quibusdam ex quasi at deleniti? Doloribus, pariatur perferendis quisquam nostrum velit sunt et ea, commodi tenetur explicabo dicta.
-          </p>
-          <table class="table table-sm small">
-            <tr>
-              <th>Model</th>
-              <td>12345611</td>
-            </tr>
-            <tr>
-              <th>Color</th>
-              <td>Black and white</td>
-            </tr>
-            <tr>
-              <th>Delivery</th>
-              <td>Russia, USA, and Europe</td>
-            </tr>
-          </table>
-          <hr>
-          <form action="" class="row">
-            <div class="col-sm-8 text-center text-sm-left mb-3 mb-sm-0">
-              <div class="display-flex align-items-baseline">
-                <label for="select" class="">
-                  Quantity:
-                </label>
-                <select id="select" class="custom-select w-auto">
-                  <option selected>1</option>
-                  <option>2</option>
-                  <option>3</option>
-                  <option>4</option>
-                </select>
-              </div>
+  <div class="container-fluid mt-5">
+    <div class="row">
+      <main role="main" class="container-image">
+        <h1>Product name: Lorem ipsum bla lorem ipsum</h1>
+        <h2 class="">
+          Price: 499 $
+        </h2>
+        <p>
+          <strong>Description:</strong> Lorem ipsum dolor, sit amet <a href="#">consectetur adipisicing</a> elit. Quidem, ducimus ullam illo quibusdam ex quasi at deleniti? Doloribus, pariatur perferendis quisquam nostrum velit sunt et ea, commodi tenetur explicabo dicta.
+        </p>
+        <table class="table">
+          <tr>
+            <th>Model</th>
+            <td>12345611</td>
+          </tr>
+          <tr>
+            <th>Color</th>
+            <td>Black and white</td>
+          </tr>
+          <tr>
+            <th>Delivery</th>
+            <td>Russia, USA, and Europe</td>
+          </tr>
+        </table>
+        <form action="" class="">
+          <div class="">
+            <div class="display-flex align-items-baseline">
+              <label for="select" class="">
+                Quantity:
+              </label>
+              <select id="select" class="custom-select w-auto">
+                <option selected>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+              </select>
             </div>
-            <div class="col-sm-4 text-center text-sm-right mb-3 mb-sm-0">
-              <button class="btn btn-primary">Add to cart</button>
-            </div>
-          </form>
-        </div>
-        <div class="col-sm-6">
-          <p>
-            <img src="https://via.placeholder.com/800x800" alt="" class="img-fluid">
-          </p>
-        </div>
-      </div>
+          </div>
+          <div class="">
+            <button class="btn btn-primary">Add to cart</button>
+          </div>
+        </form>
+      </main>
+      <aside role="complementary" class="container-image">
+        <p>
+          <img src="https://via.placeholder.com/800x800" alt="" class="img-fluid">
+        </p>
+      </aside>
     </div>
   </div>
 
