@@ -1,14 +1,5 @@
 // Main SCSS file here
 
-// -------begin customization--------
-
-$theme-colors: (
-  "primary": red,
-  "my-color": blue
-);
-
-// -------end customization--------
-
 // bootstrap.scss
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
