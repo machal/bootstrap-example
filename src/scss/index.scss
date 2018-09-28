@@ -1,6 +1,29 @@
 // Main SCSS file here
 
-// bootstrap.scss
+// Customize variables
+// -------------------
+
+$body-color: #0E121B;
+$body-bg: #E5F9F6;
+
+$kom-border-color: mix($body-color, $body-bg);
+$border-color: $kom-border-color;
+$hr-border-color:  $kom-border-color;
+$table-border-color: $kom-border-color;
+$input-border-color: $kom-border-color;
+
+$theme-colors: (
+  "primary": #157F1F,
+  "secondary": #5C6784
+);
+
+$headings-font-family: 'Rubik', sans-serif;
+$font-family-base: 'Karla', sans-serif;
+
+
+// Bootstrap
+// ---------
+
 @import "../../node_modules/bootstrap/scss/functions";
 @import "../../node_modules/bootstrap/scss/variables";
 @import "../../node_modules/bootstrap/scss/mixins";
@@ -37,3 +60,15 @@
 @import "../../node_modules/bootstrap/scss/utilities";
 @import "../../node_modules/bootstrap/scss/print";
 
+
+// Our components
+// --------------
+
+.kom-price-tag {
+  display: inline-block;
+  font-weight: normal;
+  font-size: $h5-font-size;
+  padding: ($font-size-base / 2) $spacer;
+  border-radius: $border-radius;
+  background-color: rgba(map-get($theme-colors, "secondary"), .25);
+}
